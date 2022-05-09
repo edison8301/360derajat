@@ -1,0 +1,5 @@
+assets/*
+protected/runtime/*
+protected/config/database.php
+exports/*
+imagecache/*

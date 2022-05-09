@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    background-repeat: repeat;
+
+}
+
+#content .panel-primary {
+	border: #125554;
+
+}
+
+#content .panel-primary > .panel-heading {
+
+	border: #125554;
+	padding:20px 20px;
+	font-weight: bold;
+	text-align: center;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+#content .panel-primary > .panel-heading h3 {
+	/* font-weight: bold; */
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+#site-login .btn-primary {
+
+padding:10px 10px;
+font-weight: bold;
+color: white;
+}
+
+#site-login .btn-primary:hover {
+		
+	font-weight: bold;
+		
+
+}
+
+.rememberMe {
+	margin-bottom:10px;
+}
+
+.keterangan
+{
+	color: #ccc;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.keterangan .sub-tittle
+{
+	font-size: 25px;
+}

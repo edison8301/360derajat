@@ -1,0 +1,221 @@
+
+
+a:hover {
+	text-decoration: none !important;
+	color: #669900;
+}
+
+#page {
+
+}
+
+#page h1, #page h2, #page h3 {
+	margin:20px 0px;
+}
+
+#page .breadcrumb {
+	margin-bottom:0px;
+}
+
+#page .grid-view {
+	padding-top:0px;
+}
+
+#page .grid-view .form-group {
+	margin-top: 0px;
+}
+
+
+#header {
+	background:#efefef;
+}
+
+#logo {
+	padding-top:20px;
+	padding-left:25px;
+	padding-bottom:20px;
+}
+
+
+#footer {
+	text-align:center;
+	padding:10px;
+}
+
+
+.thumbnail:hover {
+	opacity:0.25;
+}
+
+.fixed-col-no {
+	position: absolute !important;
+	left: 0px;
+	top:auto;
+	width:100px !important;
+}
+
+.fixed-col-uraian {
+	position: absolute !important;
+	left: 100px;
+	top:auto;
+	width:520px !important;
+}
+
+.fixed-col-jumlah {
+	position: absolute !important;
+	left: 550px;
+	top:auto;
+	width:100px !important;
+}
+
+.anggaran-wrapper {
+	overflow-x:scroll;
+	margin-left:630px; 
+}
+
+.col-anggaran {
+	width:150px !important;
+}
+
+.bg-1 {
+	background:#eeeeee;
+	background: none;
+}
+
+.bg-2 {
+	background:#dddddd;
+	background: none;
+}
+
+.bg-3 {
+	background:#cccccc;
+	background: none;
+}
+
+.bg-4 {
+	background:#bbbbbb;
+	background: none;
+}
+
+
+.breadcrumbs {
+	margin-top:20px;
+	padding:10px;
+	background:#efefef;
+	border-bottom:1px solid #cccccc;
+}
+
+.info-box {
+	padding:25px 20px;
+	padding-bottom:30px;
+	color:#ffffff;
+}
+
+.info-box .icon {
+	font-size: 48px;
+	margin-right: 20px;
+	margin-bottom:20px;
+}
+.info-box .title {
+	font-size:16px;
+	margin-bottom:3px;
+}
+
+.info-box .content {
+	text-align: left;
+	font-size:22px;
+	line-height: 22px;
+}
+
+.pagination li.active a {	
+	color: #fff !important;
+}
+
+
+
+.rekap-alat {
+	background: #7F0000;
+	color:#ffffff;
+	padding:8px 10px;
+	margin-bottom:5px;
+	border-left:3px solid #000000;
+}
+
+#link-export .btn-primary {
+	
+	border-radius: 0px;
+	height: 70px;
+	padding-top: 20px;
+}
+
+
+
+#link-export .btn-warning {
+	
+	border-radius: 0px;
+	height: 70px;
+	padding-top: 20px;
+}
+
+#link-export .btn-success {
+	
+	border-radius: 0px;
+	height: 70px;
+	padding-top: 20px;
+}
+
+td input{
+	border: 2px solid #ccc !important;
+	
+}
+
+td select {
+	border: 2px solid #ccc !important;
+}
+
+#page .form-group {
+	margin-top:20px;
+}
+
+
+#page .form-group label.control-label {
+	font-size:16px;
+	margin-top:4px;
+}
+
+.form-group input
+{
+	border-bottom: 2px solid #ccc !important;
+	padding: 3px;
+}
+
+
+.form-group textarea
+{
+	border: 2px solid #ccc !important;
+	padding: 3px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+
+	background-color: #19A094 !important;
+	border-radius: 0px !important;
+}
+
+
+.bold label {
+	font-weight: bold !important;
+	color: #000;
+}
+
+.btn-sm .caret {
+	color:black !important;
+}
+
+.dropdown ul, .dropdown ul li {
+	text-align: left !important;
+}
+
+.tab-pane {
+	overflow: auto;
+}

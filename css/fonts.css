@@ -1,0 +1,64 @@
+@font-face {
+
+    font-family: 'BebasNeue';
+    src: url('fonts/bebasneue-webfont.eot');
+    src: url('fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/bebasneue-webfont.woff') format('woff'),
+        url('fonts/bebasneue-webfont.ttf') format('truetype'),
+        url('fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('fonts/GOTHIC_0.ttf') format('truetype');
+	src: url('fonts/GOTHIC_0.eot');
+    src: url('fonts/GOTHIC_0.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GOTHIC_0.woff') format('woff'),
+         url('fonts/GOTHIC_0.ttf') format('truetype'),
+         url('fonts/GOTHIC_0.svg#dunkin_sansregular') format('svg');
+    font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Open Sans Extra Bold';
+    src: url('fonts/opensans/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('fonts/opensans/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'squareroman';
+    src: url('fonts/Square721BT-Roman.otf') ;
+
+}
+
+@font-face {
+    font-family: 'arvobold';
+    src: url('fonts/arvo-bold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('fonts/lucida-sans-unicode.ttf');
+}
+
+@font-face {
+    font-family: 'Webly Sleek';
+    src: url('fonts/weblysleekuil.ttf');
+}
+

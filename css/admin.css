@@ -1,0 +1,179 @@
+#footer {
+	text-align:center;
+	padding:10px;
+}
+
+#page {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+a:hover {
+	text-decoration: none !important;
+	color: #D2322D;
+
+
+}
+a{
+	color: #d9534f;
+}
+
+
+#header {
+	background:#ffffff;
+}
+
+#logo {
+	padding-top:20px;
+	padding-left:25px;
+	padding-bottom:20px;
+}
+
+#mainnav .navbar {
+
+	border-radius:0px;
+	border:0px;
+
+	font-size: 13px;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dc0610+19,a5071f+76 */
+background: #dc0610; /* Old browsers */
+background: -moz-linear-gradient(top,  #dc0610 19%, #a5071f 76%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #dc0610 19%,#a5071f 76%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #dc0610 19%,#a5071f 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc0610', endColorstr='#a5071f',GradientType=0 ); /* IE6-9 */
+
+}
+
+#mainnav ul.nav li a {
+	color:#ffffff;
+}
+
+#mainnav .navbar a:hover {
+	color: #ffffff;
+    text-decoration: none;
+    background-color: #800803 !important;
+}
+
+#mainnav .navbar-default .navbar-nav>.active>a{
+	background-color : #800803;
+}
+
+#mainnav ul .dropdown-menu
+{
+	background-color: #d9534f;
+}
+
+#mainnav .dropdown-toggle
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dc0610+19,a5071f+76 */
+background: #dc0610; /* Old browsers */
+background: -moz-linear-gradient(top,  #dc0610 19%, #a5071f 76%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #dc0610 19%,#a5071f 76%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #dc0610 19%,#a5071f 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc0610', endColorstr='#a5071f',GradientType=0 ); /* IE6-9 */
+}
+
+
+#mainnav ul .active a
+{
+	background-color: #800803;
+}
+
+#content h1 {
+	margin-top:0px;
+}
+
+.thumbnail:hover {
+	opacity:0.25;
+}
+
+.fixed-col-no {
+	position: absolute !important;
+	left: 0px;
+	top:auto;
+	width:100px !important;
+}
+
+.fixed-col-uraian {
+	position: absolute !important;
+	left: 100px;
+	top:auto;
+	width:520px !important;
+}
+
+.fixed-col-jumlah {
+	position: absolute !important;
+	left: 550px;
+	top:auto;
+	width:100px !important;
+}
+
+.anggaran-wrapper {
+	overflow-x:scroll;
+	margin-left:630px; 
+}
+
+.col-anggaran {
+	width:150px !important;
+}
+
+.bg-1 {
+	background:#eeeeee;
+	background: none;
+}
+
+.bg-2 {
+	background:#dddddd;
+	background: none;
+}
+
+.bg-3 {
+	background:#cccccc;
+	background: none;
+}
+
+.bg-4 {
+	background:#bbbbbb;
+	background: none;
+}
+
+
+.breadcrumbs {
+	margin-top:20px;
+	padding:10px;
+	background:#efefef;
+	border-bottom:1px solid #cccccc;
+}
+
+.info-box {
+	padding:25px 20px;
+	padding-bottom:30px;
+	color:#ffffff;
+}
+
+.info-box .icon {
+	font-size: 48px;
+	margin-right: 20px;
+	margin-bottom:20px;
+}
+.info-box .title {
+	font-size:16px;
+	margin-bottom:3px;
+}
+
+.info-box .content {
+	text-align: left;
+	font-size:22px;
+	line-height: 22px;
+}
+
+.pagination li.active a {
+	background: #d9534f !important;
+	border: 1px solid #D2322D;
+	color: #fff !important;
+}
+
+.pagination li a{
+	color: #d9534f !important;
+}
