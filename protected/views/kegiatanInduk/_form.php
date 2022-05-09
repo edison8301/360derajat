@@ -83,6 +83,17 @@
 </div>
 
 <div class="well">
+
+    <?php echo $form->textFieldGroup($model,'bobot_self',array(
+            'wrapperHtmlOptions'=>array('class'=>'col-sm-4'),
+            'widgetOptions'=>array(
+                'htmlOptions'=>array(
+                    'class'=>'span5',
+                    'maxlength'=>255)
+            )
+        )
+    ); ?>
+
 	<?php echo $form->textFieldGroup($model,'bobot_spr',array(
 		'wrapperHtmlOptions'=>array('class'=>'col-sm-4'),
 		'widgetOptions'=>array(

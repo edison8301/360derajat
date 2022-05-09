@@ -30,10 +30,10 @@ class KegiatanInduk extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('kode, nama, tanggal_mulai, tanggal_selesai, bobot_spr, bobot_peer, bobot_sub', 'required'),
+			array('kode, nama, tanggal_mulai, tanggal_selesai, bobot_self, bobot_spr, bobot_peer, bobot_sub', 'required'),
 			array('id_kegiatan_status', 'numerical', 'integerOnly'=>true),
 			array('nama, kode, keterangan, target', 'length', 'max'=>255),
-			array('bobot_spr, bobot_peer, bobot_sub','numerical','integerOnly'=>true,'min'=>1,'max'=>100),
+			array('bobot_self, bobot_spr, bobot_peer, bobot_sub','numerical','integerOnly'=>true,'min'=>1,'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, kode, nama, tanggal_mulai, tanggal_selesai, keterangan, id_kegiatan_status', 'safe', 'on'=>'search'),
