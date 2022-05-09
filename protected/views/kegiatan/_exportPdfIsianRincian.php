@@ -20,7 +20,11 @@
 		<?php } ?>
 	</tr>
 	</thead>
-	
+    <?php
+        $total_cp = 0;
+        $total_cpr = 0;
+        $jumlah_rincian = 0;
+    ?>
 	<?php $i=1; foreach($kompetensi->findAllRincian() as $rincian) { ?>
 	<tr>
 		<td width="30px" style="text-align:center"><?= $i; ?></td>
@@ -134,19 +138,19 @@
 	</tr>
 	<tr>
 		<td style="text-transform: uppercase">cp self</td>
-		<td><?= number_format($kompetensi->getAverageCpByIdPeran(KegiatanPenilai::PERAN_SELF,$kompetensi->id),2) ?></td>
+		<td><?php //number_format($kompetensi->getAverageCpByIdPeran(KegiatanPenilai::PERAN_SELF,$kompetensi->id),2) ?></td>
 	</tr>
 	<tr>
 		<td style="text-transform: uppercase">cp superior</td>
-		<td><?= number_format($kompetensi->getAverageCpByIdPeran(KegiatanPenilai::PERAN_SUPERIOR,$kompetensi->id),2) ?></td>
+		<td><?php //number_format($kompetensi->getAverageCpByIdPeran(KegiatanPenilai::PERAN_SUPERIOR,$kompetensi->id),2) ?></td>
 	</tr>
 	<tr>
 		<td style="text-transform: uppercase">cp peer</td>
-		<td><?= number_format($kompetensi->getAverageCpByIdPeran(KegiatanPenilai::PERAN_PEER,$kompetensi->id),2) ?></td>
+		<td><?php //number_format($kompetensi->getAverageCpByIdPeran(KegiatanPenilai::PERAN_PEER,$kompetensi->id),2) ?></td>
 	</tr>
 	<tr>
 		<td style="text-transform: uppercase">cp sub</td>
-		<td><?= number_format($kompetensi->getAverageCpByIdPeran(KegiatanPenilai::PERAN_SUB,$kompetensi->id),2) ?></td>
+		<td><?php //number_format($kompetensi->getAverageCpByIdPeran(KegiatanPenilai::PERAN_SUB,$kompetensi->id),2) ?></td>
 	</tr>
 
 </table>
@@ -180,13 +184,13 @@
 		<tr>
 			<td><?= $rincian->uraian; ?></td>
 			<td style="text-align: center"><?= $model->countAllPenilai(); ?></td>
-			<td style="text-align: center"><?= number_format($rincian->getCp(1),2); ?></td>
-			<td style="text-align: center"><?= number_format($rincian->getCp(2),2); ?></td>
-			<td style="text-align: center"><?= number_format($rincian->getCp(3),2); ?></td>
-			<td style="text-align: center"><?= number_format($rincian->getCp(4),2); ?></td>
-			<td style="text-align: center"><?= number_format($rincian->getCp(),2); ?></td>
-			<td style="text-align: center"><?= number_format($rincian->getCpr(),2); ?></td>
-			<td style="text-align: center"><?= number_format($rincian->getCp()-$rincian->getCpr(),2); ?></td>
+			<td style="text-align: center"><?php //number_format($rincian->getCp(1),2); ?></td>
+			<td style="text-align: center"><?php //number_format($rincian->getCp(2),2); ?></td>
+			<td style="text-align: center"><?php //number_format($rincian->getCp(3),2); ?></td>
+			<td style="text-align: center"><?php //number_format($rincian->getCp(4),2); ?></td>
+			<td style="text-align: center"><?php //number_format($rincian->getCp(),2); ?></td>
+			<td style="text-align: center"><?php //number_format($rincian->getCpr(),2); ?></td>
+			<td style="text-align: center"><?php //number_format($rincian->getCp()-$rincian->getCpr(),2); ?></td>
 		</tr>
 	<?php } ?>
 	</tbody>

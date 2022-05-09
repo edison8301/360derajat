@@ -1515,7 +1515,7 @@ class KegiatanController extends Controller
 			$this->redirect(['view','id'=>$model->id]);
 		}
 
-    	include(Yii::app()->basePath."/vendors/mpdf/mpdf.php");
+    	//include(Yii::app()->basePath."/vendors/mpdf/mpdf.php");
 
 		$marginLeft = 11;
 		$marginRight = 11;
@@ -1524,15 +1524,23 @@ class KegiatanController extends Controller
 		$marginHeader = 10;
 		$marginFooter = 5;
 
-		$pdf = new mPDF('UTF-8','A4-L',9,'Arial',$marginLeft,$marginRight,$marginTop,$marginBottom,$marginHeader,$marginFooter);
+        $pdf = new \Mpdf\Mpdf();
+		//$pdf = new mPDF('UTF-8','A4-L',9,'Arial',$marginLeft,$marginRight,$marginTop,$marginBottom,$marginHeader,$marginFooter);
 
 
-		$html = $this->renderPartial('_exportPdfIsianHeader',array('model'=>$model),true);
+		$html = $this->renderPartial('_exportPdfIsianHeader',[
+		    'model' => $model,
+        ],true);
+
 		$pdf->WriteHTML($html);
-		
+
 		foreach($model->findAllKompetensi() as $kompetensi)
 		{
-			$html = $this->renderPartial('_exportPdfIsianRincian',array('model'=>$model,'kompetensi'=>$kompetensi),true);
+			$html = $this->renderPartial('_exportPdfIsianRincian', [
+			    'model' => $model,
+                'kompetensi' => $kompetensi
+            ],true);
+
 			$pdf->WriteHTML($html);
 			$pdf->AddPage();
 		}

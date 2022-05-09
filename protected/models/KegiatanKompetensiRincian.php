@@ -254,8 +254,10 @@ class KegiatanKompetensiRincian extends CActiveRecord
 
 		$hasil = 0;
 		$rincianHasil = KegiatanKompetensiRincianHasil::model()->find($criteria);
-		if ($rincianHasil!=null)
-			$hasil = $rincianHasil->sum_cpr;
+		if ($rincianHasil !== null) {
+            $hasil = $rincianHasil->sum_cpr;
+        }
+
 
 		$jumlahData = KegiatanKompetensiRincianHasil::model()->count($criteria);
 		
