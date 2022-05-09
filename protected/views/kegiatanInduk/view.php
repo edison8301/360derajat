@@ -33,6 +33,7 @@ $this->breadcrumbs=array(
 	            'type'=>'raw',
 	            'value' => $model->getLabelKegiatanStatus()
 	        ),
+	        'bobot_self',
 	        'bobot_spr',
 	        'bobot_peer',
 	        'bobot_sub'
